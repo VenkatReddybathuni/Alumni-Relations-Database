@@ -44,9 +44,6 @@ python main.py
 
 ![Alt text](screenshots/terminal.png)
 <br>
-
-![Alt text](screenshots/index.png)
-<br>
 - Open the link for the Web Server present in your terminal or you can copy the following link:
 ```
 http://127.0.0.1:5000/
@@ -65,10 +62,11 @@ http://127.0.0.1:5000/
 ![Alt text](screenshots/signup.png)
 - Upon successfull login or signup we get user profile page as shown
 <br>
-![Alt text](screenshots/login_success.png)
+
+![Alt text](screenshots/Loggedin.png)
 - On the navbar we can see view tables which redirects us to the following page where we can only view certain number of tables as we were logged in as user. All the CRUD operations are restricted for user login.
 <br>
-![Alt text](screenshots/user_display.png)
+![Alt text](screenshots/view_tables.png)
 <br>
 <br>
 
@@ -143,39 +141,39 @@ By clicking on the where option in display page, you are redirected to a differe
 <br>
 ## Work Distribution
 # Reddybathuni Venkat:
-Worked on backend routes.
-Worked on Flash integration and integrating database in a web app using MySQL.
-Contributed to the creation of HTML pages that are displayed on the web application.
+Worked on backend routes.<br>
+Worked on Flash integration and integrating database in a web app using MySQL.<br>
+Contributed to the creation of HTML pages that are displayed on the web application.<br>
 Worked on github management
 <br>
 # Naga Bhuvith Nakka:
-Helped in integrating database in a web app using MySQL.
-Developed an idea for the Front-end.
+Helped in integrating database in a web app using MySQL.<br>
+Developed an idea for the Front-end.<br>
 Also worked on the UPDATE function and helped on the backend part.
 <br>
 # Kaila Uday Vardhan Reddy:
-Worked on the Front-end of the Web app using HTML.
-Worked on some part of the combined work of G1&G2.
+Worked on the Front-end of the Web app using HTML.<br>
+Worked on some part of the combined work of G1&G2.<br>
 Contributed to the Front-end development of these HTML pages using CSS.
 <br>
 # Koleti Eswar Sai Ganesh:
-Helped in fixing some errors.
-Assisted with integrating Flask with MySQL.
+Helped in fixing some errors.<br>
+Assisted with integrating Flask with MySQL.<br>
 Also worked on the backend part (Delete function).
 <br>
 # Chakradhar Basani:
-Helped in the documentation and worked on the README file.
-Taken screenshots.
-Also helped in debugging errors during testing.
+Helped in the documentation and worked on the README file.<br>
+Taken screenshots.<br>
+Also helped in debugging errors during testing.<br>
 Worked on authentication in flask
 <br>
 # Vubbani Bharath Chandra: 
-Tested and ran the web application.
-Also clicked screenshots of successful executions.
+Tested and ran the web application.<br>
+Also clicked screenshots of successful executions.<br>
 Also helped in fixing & debugging errors.
 <br> 
 # Sai Charan Miriyala:
-Entered some dummy values and showed these dummy entries on the web page.
-Established necessary connections to thoroughly test both our database and the web application.
-Contributed to the Front-end development of these HTML pages using CSS.
+Entered some dummy values and showed these dummy entries on the web page.<br>
+Established necessary connections to thoroughly test both our database and the web application.<br>
+Contributed to the Front-end development of these HTML pages using CSS.<br>
 
