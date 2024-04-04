@@ -1,7 +1,7 @@
 # config.py
 
-MYSQL_HOST = '127.0.0.1'
-MYSQL_USER = 'root'  
-MYSQL_PASSWORD = 'Venkat_123'  
+MYSQL_HOST = '' #add host name
+MYSQL_USER = ''#add user  
+MYSQL_PASSWORD = '' #add the password
 MYSQL_DB = 'alumni_relations'
 
