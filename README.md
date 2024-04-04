@@ -140,40 +140,41 @@ By clicking on the where option in display page, you are redirected to a differe
 ![Alt text](screenshots/where_query.png)
 ![Alt text](screenshots/where.png)
 ![Alt text](screenshots/dbwhere.png)
-![Alt text](screenshots/wherequery_out_wb.png)
 <br>
 ## Work Distribution
-- Reddybathuni Venkat:
+# Reddybathuni Venkat:
 Worked on backend routes.
 Worked on Flash integration and integrating database in a web app using MySQL.
 Contributed to the creation of HTML pages that are displayed on the web application.
+Worked on github management
 <br>
-- Naga Bhuvith Nakka:
+# Naga Bhuvith Nakka:
 Helped in integrating database in a web app using MySQL.
 Developed an idea for the Front-end.
 Also worked on the UPDATE function and helped on the backend part.
 <br>
-- Kaila Uday Vardhan Reddy:
+# Kaila Uday Vardhan Reddy:
 Worked on the Front-end of the Web app using HTML.
 Worked on some part of the combined work of G1&G2.
 Contributed to the Front-end development of these HTML pages using CSS.
 <br>
-- Koleti Eswar Sai Ganesh:
+# Koleti Eswar Sai Ganesh:
 Helped in fixing some errors.
 Assisted with integrating Flask with MySQL.
 Also worked on the backend part (Delete function).
 <br>
-- Chakradhar Basani:
+# Chakradhar Basani:
 Helped in the documentation and worked on the README file.
 Taken screenshots.
 Also helped in debugging errors during testing.
+Worked on authentication in flask
 <br>
-- Vubbani Bharath Chandra: 
+# Vubbani Bharath Chandra: 
 Tested and ran the web application.
 Also clicked screenshots of successful executions.
 Also helped in fixing & debugging errors.
 <br> 
-- Sai Charan Miriyala:
+# Sai Charan Miriyala:
 Entered some dummy values and showed these dummy entries on the web page.
 Established necessary connections to thoroughly test both our database and the web application.
 Contributed to the Front-end development of these HTML pages using CSS.
