@@ -7,7 +7,10 @@ class Users(db.Model, UserMixin):
     user_name = db.Column(db.String(22))
     email = db.Column(db.String(35), unique=True)
     password = db.Column(db.String(150))
-
+    address = db.column(db.String(150))
+    linkedin = db.column(db.String(150))
+    phone = db.column(db.String(15))
+    
     def get_id(self):
         return(self.user_id)
 
