@@ -199,7 +199,6 @@ Also helped in fixing & debugging errors.
 <br>
 ![Alt text](screenshots/viewtables.png)
 <br>
-<br>
 
 ## Admin Login
 
