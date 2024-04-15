@@ -51,7 +51,129 @@ http://127.0.0.1:5000/
 ![Alt text](screenshots/index.png)
 <br>
 - The link will direct you to Home page of our WebApp. Click the login button will direct you to our login page.
+#Assignment 4 README
+## Responsibilities of G1
+### Updates from feedback
+#### User UI made understandable and easy to search with more restricted views
 
+#### Before first feedback
+![Alt text](screenshots/viewtables.png)
+#### After final feedback
+![Alt text](screenshots/initialsearchby.png)
+- User can select by what option they want to search and search making it easy for the user than prior where we have to go to the tables to get the information which maynot be understandable by all the users.
+<br>
+
+![Alt text](screenshots/examplesearchby.png)
+- Here is one example of search by graduation year where all the alumni graduated in 2008 were displayed.
+#### User will be able to update his personal info
+
+#### Before first feedback
+![Alt text](screenshots/userinfo.png)
+#### After final feedback
+![Alt text](screenshots/userinfo.png)
+- Before first review the user was not given the credibility to update their personal details which was updated later.
+#### Nameing the tables better
+#### Before first feedback
+![Alt text](screenshots/after_rename.png)
+#### After final feedback
+![Alt text](screenshots/betternames.png)
+<br>
+- The tables were given meaningful and easy to understand names than that of before.
+<br>
+
+### Privileges
+#### Admin privileges
+- If you login as admin you will be given access to all the tables and you can perform Rename, where, update, insert and Delete functions. Basically total access is present wiht the admin.
+![Alt text](screenshots/newdisplay.png)
+
+#### All the UI and backend remains the same from that of the last assignment as that was satisfactory for the stakeholders.
+
+#### User privileges
+- If you login as user you will be able to edit some of your personal information which doesnot need authentication of anykind. They will not be allowed to change their information which requires authentication and cannot change any type of information of other users.
+![Alt text](screenshots/newloggedin.png)
+
+- The user will be able to access the required information such as alumni graduated in 2008 etc easily than before and will be restricted only to see limited amount of data which is not considered confidential. Remaining information is locked. He/she cannot do CRUD operations.
+![Alt text](screenshots/examplesearchby.png)
+
+## Responsibilities of G2
+### Concurrent multi-user access
+-Used the following commands to lock the table while updating, renaming, deleting and unlocked as soon as the work is done.
+```
+cursor.execute(f"LOCK TABLES {table_name} WRITE")
+cursor.execute(f"UNLOCK TABLES")
+``` 
+![Alt text](screenshots/locktables.png)
+### Google authentication for login and signup
+- Used google authentication for login and signup and access to the website is given only to IITGN mail accounts.
+
+
+![Alt text](screenshots/userloginnew.png)
+![Alt text](screenshots/gmailselect.png)
+![Alt text](screenshots/newloggedin.png)
+-If the gmail account used is other than from that of IITGN the access is restricted.
+![Alt text](screenshots/mailblock.png)
+
+## Responsibilities of G1 and  G2
+
+### Attacks 
+#### XSS Attack
+-XSS attack can be done when the user is allowed to enter HTML tags in the input.
+-To prevent this attack from happening we restricted the input to not take HTML tags.
+<br>
+Here we are  giving a HTML tag as input.
+![Alt text](screenshots/xssinput.png)
+There will be a popout saying that is not allowed. Hence in this way XSS atack can be prevented.
+![Alt text](screenshots/XSSoutput.png)
+<br>
+#### SQL Injection
+-SQL injection can be done by manupulating the input using "" or '' or any other MYSQL key words and changing the query itself.
+<br>
+Before adding protection if the input 2008 OR 1 = 1 input is given in search by graduation year option it selects all the entries in the database showing vulnerability to SQL injection 
+![Alt text](screenshots/sqlunprotected.png)
+<br>
+After using Re library in python to not accept the MYSQL key words if we search for the same an error occurs showing the website is protected. 
+<br>
+![Alt text](screenshots/injectioninput.png)
+![Alt text](screenshots/injectionoutput.png)
+<br>
+
+
+
+# Work Distribution
+### Reddybathuni Venkat:
+Worked on backend routes for google authentication and new user features.<br>
+Managed google cloud OAuth 2.0 Client ID's.<br>
+Worked on preventing XSS and sql injection attacks in the backend<br>
+Worked on github management
+<br>
+### Naga Bhuvith Nakka:
+Worked on Concurrent multi-user access<br>
+Worked on backend for new user features.<br>
+Took feedback from stakeholders.
+<br>
+### Kaila Uday Vardhan Reddy:
+Contributed to front end for updates after feedback..<br>
+Worked on some part of the combined work of G1&G2.<br>
+Took feedback from stakeholders.
+<br>
+### Koleti Eswar Sai Ganesh:
+Helped in fixing some errors.<br>
+Assisted with integrating Flask with Google.<br>
+Also helped in debugging errors in backend.
+<br>
+### Chakradhar Basani:
+Helped in the documentation and worked on the README file.<br>
+Taken screenshots.<br>
+Also helped in debugging errors during testing.<br>
+Worked on google authentication in flask
+<br>
+### Vubbani Bharath Chandra: 
+Tested and ran the web application.<br>
+Also clicked screenshots of successful executions.<br>
+Also helped in fixing & debugging errors.
+<br> 
+
+#Assignment 3 README
 ## User Login 
 <br>
 
