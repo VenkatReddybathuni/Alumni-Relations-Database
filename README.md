@@ -51,10 +51,10 @@ http://127.0.0.1:5000/
 ![Alt text](screenshots/index.png)
 <br>
 - The link will direct you to Home page of our WebApp. Click the login button will direct you to our login page.
-#Assignment 4 README
+# Assignment 4 README
 ## Responsibilities of G1
 ### Updates from feedback
-#### User UI made understandable and easy to search with more restricted views
+### 1. User UI made understandable and easy to search with more restricted views
 
 #### Before first feedback
 ![Alt text](screenshots/viewtables.png)
@@ -65,14 +65,14 @@ http://127.0.0.1:5000/
 
 ![Alt text](screenshots/examplesearchby.png)
 - Here is one example of search by graduation year where all the alumni graduated in 2008 were displayed.
-#### User will be able to update his personal info
+### 2. User will be able to update his personal info
 
 #### Before first feedback
-![Alt text](screenshots/userinfo.png)
+![Alt text](screenshots/beforeinfo.png)
 #### After final feedback
 ![Alt text](screenshots/userinfo.png)
 - Before first review the user was not given the credibility to update their personal details which was updated later.
-#### Nameing the tables better
+### 3. Nameing the tables better
 #### Before first feedback
 ![Alt text](screenshots/after_rename.png)
 #### After final feedback
@@ -82,13 +82,13 @@ http://127.0.0.1:5000/
 <br>
 
 ### Privileges
-#### Admin privileges
+### Admin privileges
 - If you login as admin you will be given access to all the tables and you can perform Rename, where, update, insert and Delete functions. Basically total access is present wiht the admin.
 ![Alt text](screenshots/newdisplay.png)
 
-#### All the UI and backend remains the same from that of the last assignment as that was satisfactory for the stakeholders.
+### All the UI and backend remains the same from that of the last assignment as that was satisfactory for the stakeholders.
 
-#### User privileges
+### User privileges
 - If you login as user you will be able to edit some of your personal information which doesnot need authentication of anykind. They will not be allowed to change their information which requires authentication and cannot change any type of information of other users.
 ![Alt text](screenshots/newloggedin.png)
 
@@ -108,9 +108,13 @@ cursor.execute(f"UNLOCK TABLES")
 
 
 ![Alt text](screenshots/userloginnew.png)
+<br>
 ![Alt text](screenshots/gmailselect.png)
+<br>
 ![Alt text](screenshots/newloggedin.png)
--If the gmail account used is other than from that of IITGN the access is restricted.
+<br>
+- If the gmail account used is other than from that of IITGN the access is restricted.
+<br>
 ![Alt text](screenshots/mailblock.png)
 
 ## Responsibilities of G1 and  G2
@@ -121,19 +125,24 @@ cursor.execute(f"UNLOCK TABLES")
 -To prevent this attack from happening we restricted the input to not take HTML tags.
 <br>
 Here we are  giving a HTML tag as input.
+<br>
 ![Alt text](screenshots/xssinput.png)
+<br>
 There will be a popout saying that is not allowed. Hence in this way XSS atack can be prevented.
+<br>
 ![Alt text](screenshots/XSSoutput.png)
 <br>
 #### SQL Injection
 -SQL injection can be done by manupulating the input using "" or '' or any other MYSQL key words and changing the query itself.
 <br>
 Before adding protection if the input 2008 OR 1 = 1 input is given in search by graduation year option it selects all the entries in the database showing vulnerability to SQL injection 
+<br>
 ![Alt text](screenshots/sqlunprotected.png)
 <br>
 After using Re library in python to not accept the MYSQL key words if we search for the same an error occurs showing the website is protected. 
 <br>
 ![Alt text](screenshots/injectioninput.png)
+<br>
 ![Alt text](screenshots/injectionoutput.png)
 <br>
 
@@ -173,7 +182,7 @@ Also clicked screenshots of successful executions.<br>
 Also helped in fixing & debugging errors.
 <br> 
 
-#Assignment 3 README
+# Assignment 3 README
 ## User Login 
 <br>
 
@@ -188,7 +197,7 @@ Also helped in fixing & debugging errors.
 ![Alt text](screenshots/Loggedin.png)
 - On the navbar we can see view tables which redirects us to the following page where we can only view certain number of tables as we were logged in as user. All the CRUD operations are restricted for user login.
 <br>
-![Alt text](screenshots/view_tables.png)
+![Alt text](screenshots/viewtables.png)
 <br>
 <br>
 
