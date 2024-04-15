@@ -172,9 +172,8 @@ Also helped in debugging errors in backend.
 <br>
 ### Chakradhar Basani:
 Helped in the documentation and worked on the README file.<br>
-Taken screenshots.<br>
 Also helped in debugging errors during testing.<br>
-Worked on google authentication in flask
+Worked on attacks in flask
 <br>
 ### Vubbani Bharath Chandra: 
 Tested and ran the web application.<br>
